@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.flex-row{
+    display: flex;
+
+}
+
+.just-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+.anydiv{
+    height: 45px;
+    width: 400px;
+    padding: 0 4px;
+    list-style-type: none;
+    border: 3px solid lightgray;
+    border-radius: 30px;
+}
+
+.border-right{
+    border-right: 3px solid lightgray;
+}
+
+.anydiv>li>a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+.anydiv>li>button{
+    background-color: rgb(255, 0, 170);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 100%;
+    border: none;
+}

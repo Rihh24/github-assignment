@@ -1,0 +1,97 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.row1{
+    border: 3px solid black;
+    color: white;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navigation-bar{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 500px;
+    padding-right: 100px;
+}
+
+button{
+    justify-content: flex-end;
+    background-color: blue;
+    color: white;
+    box-shadow: 1px 1px;
+}
+.row2{
+    display: flex;
+}
+
+.column{
+    height: 700px;
+    width: 500px;
+
+}
+
+.left{
+    border: 3px solid lightgray;
+    height: 200px;
+    width: 380px;
+    margin-top: 50px;
+
+}
+
+#jane{
+    height: 350px;
+    padding-left: 50px;
+    line-height: 20px;
+
+}
+
+.blue-stripe{
+    height: 80px;
+    width: 430px;
+    background-color: cyan;
+    display: flex;
+    margin-bottom: -45px;
+    margin-left: -50px;
+}
+
+.jane-pic{
+    border-radius: 50%;
+    height: 80px;
+}
+
+.seattle{
+    display: flex;
+}
+
+.marker{
+    height: 20px;
+    margin-top: 19px;
+    padding-right: 20px;
+}
+
+.ed-header{
+    color: white;
+    background-color: dimgray;
+    height: 30px;
+}
+.date{
+    color: gray;
+}
+
+#education{
+    width: 430px;
+}
+
+.right{
+    border: 3px dotted red;
+    height: 200px;
+    width: 425px;
+    margin-top: 50px;
+}

@@ -1,0 +1,36 @@
+#search, #plus, #creat-account{
+    text-align: left;
+    margin: 10px;
+}
+#search{
+    text-align: center;
+    height: 20px;
+    width: 60px;
+    color: cyan;
+    border-color: cyan;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 20%;
+
+}
+#plus{
+    text-align: center;
+    height: 16px;
+    width: 15px;
+    color: white;
+    background-color: cyan;
+    border: 2px solid;
+    border-color: cyan;
+    border-radius: 50%;
+}
+#create-account{
+    text-align: center;
+    height: 20px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    border: 2px solid;
+    border-color: black;
+    box-shadow: 3px 3px 1px black;
+    
+}

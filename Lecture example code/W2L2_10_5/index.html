@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex-col wrapper">
+        <div class="flex-row nav">
+            <h1>Flex Nav</h1>
+            <ul class="flex-row">
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+            </ul>
+            <button onclick="changeText(this)">Login</button>
+        </div>
+        <div class="flex-row main">
+            <div class="flex-col section">
+                <div onclick="whatIsThis(this)" class="box"></div>
+                <div onclick="byeBye(this)" class="box"></div>
+                <div onmouseover="hoverOver(this)" onmouseout="hoverOut(this)" class="box"></div>
+
+
+            </div>
+            <div onclick="yell(this)" class="flex-col section">
+
+            </div>
+        </div>
+        <div class="flex-row footer">
+            <img onmouseover="changeSrc(this)" onmouseout="changeBack(this)" src="https://upload.wikimedia.org/wikipedia/en/d/db/Yoshi_%28Nintendo_character%29.png" alt="">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

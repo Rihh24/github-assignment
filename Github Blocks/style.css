@@ -1,0 +1,55 @@
+.catcontainer{
+    background-color: gray;
+    width: 540px;
+    height: 425px;
+    margin: auto;
+    text-align: center;
+}
+img.octocat{
+    height: 100px
+    
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+}
+.blue {
+    width: 500px;
+    height: 100px;
+    background-color:aqua;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 10px;
+}
+
+h1{
+    color:blueviolet;
+    align-items: center;
+    padding-top:  10px;
+}
+.pink {
+    width: 500px;
+    height: 100px;
+    background-color: hotpink;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+
+}
+.white {
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 10px;
+}

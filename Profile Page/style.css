@@ -1,0 +1,81 @@
+.container{
+    background-color: black;
+    color: white;
+    width: 850px;
+    height: 100px;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+button{
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+}
+.info{
+    flex-direction: column;;
+
+}
+
+.jane{
+    border: 1px solid blue;
+    height: 300px;
+    width: 380px;
+    margin-top: 50px;
+    color: black;
+    padding-left: 20px;
+
+
+}
+
+img{
+    height: 100px;
+    border-radius: 50%;
+}
+
+.row2{
+    display: flex;
+
+
+}
+
+.education{
+    border: 1px solid blue;
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    color: black;
+}
+
+.connections{
+    flex-direction: column;
+    display: inline-block;
+}
+
+.requests{
+    border: 1px solid blue;
+    height: 150px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 200px;
+    color: black;
+}
+
+.your{
+    border: 1px solid blue;
+    height: 250px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 200px;
+    color: black;
+}
+
+h5{
+    color: gray;
+}

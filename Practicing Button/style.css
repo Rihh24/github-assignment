@@ -1,0 +1,16 @@
+div{
+    border: 1px solid purple;
+    height: 150px;
+    width: 200px;
+    color: gold;
+    align-items: center;
+    background-color: purple;
+    align-items: center;
+    font-size: large;
+}
+
+.practice{
+    align-items: center;
+    text-align: center;
+    align-items: center;
+}

@@ -1,0 +1,18 @@
+.post{
+    border: 1px solid black;
+    height: 110px;
+    width: 500px;
+    align-items: center;
+}
+
+.top-line{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+button{
+    color: black;
+    background-color: yellow;
+    box-shadow: 4px 4px black;
+}

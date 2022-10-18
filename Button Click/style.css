@@ -1,0 +1,69 @@
+.container{
+    height: auto;
+    width: 800px;
+}
+.nav-bar{
+    color: black;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gray;
+    margin-bottom: 30px;
+}
+.login{
+    height: 30px;
+    width: 90px;
+    background-color: lightblue;
+    box-shadow: 4px 4px;
+}
+
+
+.ninja-1{
+    display: flex;
+    padding-left: 20px;
+    border: 1px solid black;
+    width: 500px;
+    height: 220px;
+    margin-bottom: 30px;
+}
+.likes{
+    background-color: yellow;    height: 30px;
+    width: 90px;
+    box-shadow: 4px 4px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.column-2{
+    display: flex;
+    border: 1px solid black;
+    height: 150px;
+    width: 235px;
+    margin-left: 40px;
+    flex-direction: column;
+}
+
+.dojonary{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+}
+
+.page-content{
+    display: flex;
+    width: 1000px;
+}
+
+.definition{
+    height: 40px;
+    width: 150px;
+    background-color: blueviolet;
+    color: gold;
+    box-shadow: 2px 2px black;
+}

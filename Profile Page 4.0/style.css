@@ -1,0 +1,155 @@
+.container {
+    width: 1080px;
+    height:1000px;
+    margin: 0 auto;
+    display: inline;
+}
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.top-links{
+    list-style: none;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    background-color: gold;
+    box-shadow: 2px 5px;
+
+}
+.row{
+    flex-direction: row;
+    display:flex;
+    background-color: blueviolet;
+    margin-bottom: 50px;
+}
+
+.row-two{
+    width: 1080px;
+    height:1000px;
+    display: flex;
+}
+.col{
+    width: 500px;
+    height:1000px;
+
+
+}
+.jane-box{
+    border: 1px solid gray;
+    width: 450px;
+    height: 350px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    border-radius: 5%;
+}
+
+.education{
+    border: 1px solid gray;
+    width: 470px;
+    height: 200px;
+}
+.col-2{
+    width: 500px;
+    height:1000px;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.connections{
+    border: 1px solid gray;
+    width: 350px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.requests{
+    border: 1px solid gray;
+    width: 350px;
+    height: 300px;
+}
+
+.jane-picture{
+    border-radius: 50%;
+    height: 100px;
+}
+.blue-stripe{
+    width: 470px;
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    margin-top: -1px;
+    margin-bottom: -60px;
+    margin-left: -20px;
+    border-top-left-radius:15%;
+    border-top-right-radius:15% ;
+}
+
+.marker{
+    height: 25px;
+}
+
+.seattle{
+    display: inline;
+}
+
+.ed-header{
+    background-color:maroon;
+    color: white ;
+    height: 50px;
+    display: flex;
+}
+
+.gray-text{
+    color: gray;
+}
+
+.con-header{
+    background-color: gray;
+    height: 40px;
+    color: white;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.con-title{
+    display: inline;
+}
+
+.num-two{
+    background-color: lightblue;
+    border-radius: 50%;
+    padding: 4px 8px;
+    
+}
+
+.names-one{
+    list-style: none;
+    flex-direction: column;
+}
+
+.todd-pic{
+    border-radius: 50%;
+    height: 60px;
+    display: inline-block;
+
+}
+
+.todd-name{
+    margin-top: -60px;
+    margin-left: 70px;
+}
+
+.phil-pic{
+    border-radius: 50%;
+    height: 60px;
+    display: inline;
+}

@@ -1,0 +1,148 @@
+.container{
+    background-color:rebeccapurple;
+    color: white;
+    width: 1300px;
+    height: 100px;
+
+    
+}
+.top-links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 600px;
+    justify-content: space-evenly;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+button{
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    box-shadow: 2px 5px black;
+
+
+}
+.info{
+    flex-direction: column;;
+    margin-left: 50px;
+
+}
+
+.jane{
+    border: 1px solid gray;
+    height: 320px;
+    width: 500px;
+    margin-top: 50px;
+    color: black;
+    padding-left: 20px;
+    border-radius: 2%;
+
+
+
+}
+
+.jane-picture{
+    height: 80px;
+    border-radius: 50%;
+    margin-top:-500px;
+
+}
+.col{
+    flex-direction: column;
+}
+
+.row2{
+    display: flex;
+
+
+}
+
+.education{
+    border: 1px solid blue;
+    height: 200px;
+    width: 520px;
+    margin-top: 50px;
+    color: black;
+    border-radius: 3%;
+}
+
+.user-line{
+    display: flex;
+}
+
+.connections{
+    flex-direction: column;
+    display: inline;
+}
+
+.requests{
+    border: 1px solid blue;
+    height: 150px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 200px;
+    color: black;
+}
+
+.your{
+    border: 1px solid blue;
+    height: 250px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 200px;
+    color: black;
+}
+
+h5{
+    color: gray;
+}
+
+.blue-stripe{
+    height: 100px;
+    margin-top: 0px;
+    margin-left: -20px;
+    background-color: aquamarine;;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+
+}
+
+.marker{
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    display: inline;
+
+
+}
+
+.seattle{
+    display: flex;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+.gray-stripe{
+    background-color: gray;
+    color: white;
+    vertical-align: top;
+    margin-top: -.5px;
+    height: 40px;
+    width: 200px;
+    display: inline-block;
+}
+.two{
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 50%
+    ;
+
+}

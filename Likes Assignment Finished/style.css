@@ -1,0 +1,68 @@
+.container{
+    height: 800px;
+    width: 700px;
+}
+
+.like-btn{
+    background-color: yellow;
+    height: 30px;
+    width: 60px;
+    box-shadow: 2px 2px;
+}
+.network-bar{
+    color: white;
+    background-color: black;
+}
+.yourfeed{
+    width: auto;
+    text-align: center;
+}
+.page{
+    display: flex;
+}
+
+.col{
+    border: 3px solid black;
+    height: 300px;
+    width: 200px;
+    line-height: 30px;
+
+}
+.james-doe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    line-height: 90px;
+
+}
+.pic{
+    height: 90px;
+    width: 90px;
+
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+}
+
+.names{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.row{
+    width: 400px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 140px;
+
+}
+
+

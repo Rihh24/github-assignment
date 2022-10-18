@@ -1,0 +1,19 @@
+h1{
+    background-color: black;
+    color: cyan;
+    
+}
+.white_text{
+    color: white;
+}
+h2{
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+}
+h3{
+    background-color: lightskyblue;
+    color: black;
+    text-decoration: underline;
+    text-align: right;
+}

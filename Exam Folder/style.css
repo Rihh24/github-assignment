@@ -1,0 +1,164 @@
+.container{
+    height: 1000px;
+    width: 1900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.header{
+    height: 170px;
+    width: 1900px;
+    background-color: rgb(17,155,157);
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.row-1{
+    height: 70px;
+    width: 950px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.shelter{
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 400px;
+}
+
+.nav-links{
+    width: 440px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 60px;
+}
+
+#donate{
+    background-color: white;
+    color: purple;
+    border-color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    box-shadow: 2px 2px purple;
+}
+
+.heart-pic{
+    height: 40px;
+    width: 40px;
+}
+
+/* End of top-nav */
+
+.row-2{
+    height: 70px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.select-pet{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.pet-type{
+    display: flex;
+    align-items: center;
+}
+
+.selector{
+    width: 130px;
+}
+
+.location{
+    color: white;
+}
+
+.location-finder{
+    display: flex;
+}
+
+#paw-pic{
+    height: 30px;
+    margin-right: 10px;
+}
+
+#pin-pic{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.best-friend-btn{
+    margin-top: 50px;
+}
+
+.find-friend{
+    background-color: purple;
+    color: white;
+    box-shadow: 2px 2px black;
+    height: 30px;
+    width: 250px;
+}
+
+
+.shelter{
+    display: flex;
+    color: white;
+}
+
+/* END OF TOP NAV */
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    width: 1498px;
+}
+
+.pet-option{
+    background-color: rgb(221, 221, 221);
+    height: 150px;
+    width: 800px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.pet-info{
+    margin-left: 30px;
+}
+
+.pet-pic{
+    height: 130px;
+    width: 130px;
+}
+.pettings{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.pets-btn{
+    background-color: rgb(23, 207, 209);
+    color: white;
+    box-shadow: 2px 2px black;
+    width: 200px;
+    height: 30px;
+
+}
